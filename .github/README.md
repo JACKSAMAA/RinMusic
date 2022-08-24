@@ -21,7 +21,7 @@
 
 
 <h4>ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴅᴇᴘʟᴏʏ ᴍᴇᴏᴡ ᴍᴜsɪᴄ ᴏɴ ʜᴇʀᴏᴋᴜ!</h4>    
-<a href="https://github.com/JACKSAMAA/ArimaXKaori"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a>
+<a href="https://github.com/JACKSAMAA/ArimaXKaori/"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a>
 
 ɴᴏᴛᴇ: ᴡʜᴇɴ ᴜ ᴅᴇᴘʟᴏʏ ɪɴ ʜᴇʀᴏᴋᴜ ᴜsᴇ ᴇᴜʀᴏᴘᴇ sᴇʀᴠᴇʀ ᴜ ᴡɪʟʟ ɢᴇᴛ ɴᴏ ʟᴀɢ ɪssᴜᴇ
 
