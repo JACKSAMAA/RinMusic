@@ -308,7 +308,7 @@ async def play(_, message: Message):
         
        [
             InlineKeyboardButton("🎥 ᴡᴀᴛᴄʜ", url="https://youtube.com"),
-            InlineKeyboardButton("📨 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/DarkkkCarnage"),
+            InlineKeyboardButton("📨 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/KaoriXSupport"),
         ],[
             InlineKeyboardButton("🚫 ᴄʟᴏsᴇ", callback_data="cls"),
         ],
@@ -349,7 +349,7 @@ async def play(_, message: Message):
         
        [
             InlineKeyboardButton("🎥 ᴡᴀᴛᴄʜ", url="https://youtube.com"),
-            InlineKeyboardButton("📨 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/DarkkkCarnage"),
+            InlineKeyboardButton("📨 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/KaoriXSupport"),
         ],[
             InlineKeyboardButton("🚫 ᴄʟᴏsᴇ", callback_data="cls"),
         ],
@@ -481,7 +481,7 @@ async def play(_, message: Message):
         
        [
             InlineKeyboardButton("🎥 ᴡᴀᴛᴄʜ", url="https://youtube.com"),
-            InlineKeyboardButton("📨 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/DarkkkCarnage"),
+            InlineKeyboardButton("📨 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/KaoriXSupport"),
         ],[
             InlineKeyboardButton("🚫 ᴄʟᴏsᴇ", callback_data="cls"),
         ],
@@ -569,7 +569,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**[ᴘʟᴀʏɪɴɢ ᴍᴜsɪᴄ ᴠɪᴀ ʏᴏᴜᴛᴜʙᴇ 📡]({})**\n\n• ᴜsᴇʀ : {}\n• ɢʀᴏᴜᴘ : [{}](https://t.me/DarkkkCarnage)".format(
+            caption="**[ᴘʟᴀʏɪɴɢ ᴍᴜsɪᴄ ᴠɪᴀ ʏᴏᴜᴛᴜʙᴇ 📡]({})**\n\n• ᴜsᴇʀ : {}\n• ɢʀᴏᴜᴘ : [{}](https://t.me/KaoriXRobot)".format(
                 url, message.from_user.mention(), message.chat.title
             ),
         )
@@ -595,7 +595,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**[ᴘʟᴀʏɪɴɢ ᴍᴜsɪᴄ ᴠɪᴀ ʏᴏᴜᴛᴜʙᴇ 📡]({})**\n\n• ᴜsᴇʀ : {}\n• ɢʀᴏᴜᴘ : [{}](https://t.me/DarkkkCarnage)".format(
+            caption="**[ᴘʟᴀʏɪɴɢ ᴍᴜsɪᴄ ᴠɪᴀ ʏᴏᴜᴛᴜʙᴇ 📡]({})**\n\n• ᴜsᴇʀ : {}\n• ɢʀᴏᴜᴘ : [{}](https://t.me/KaoriXSupport)".format(
                 url, message.from_user.mention(), message.chat.title
             ),
         )
