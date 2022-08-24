@@ -432,7 +432,7 @@ async def cleandb(_, CallbackQuery):
 @Client.on_callback_query(filters.regex("cmds"))
 async def cbcmnds(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""**BOBBY BOT COMMANDS 💡**
+        f"""**𝗞𝗼𝘂𝘀𝗲𝗶 𝗔𝗿𝗶𝗺𝗮 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 🙂**
 
 • /play (song name) 
 - For playing music
@@ -518,9 +518,9 @@ This bot helps you to play music, to search music from youtube and to download m
             [
               [
                     InlineKeyboardButton("Support 🚶", url=f"https://t.me/{SUPPORT}"),
-                    InlineKeyboardButton("Updates 🤖", url=f"https://t.me/COMRADE_ROBOTZ")
+                    InlineKeyboardButton("Updates 🤖", url=f"https://t.me/KaoriXUpdate")
                 ],
-            [InlineKeyboardButton("Make Your Own Bot", callback_data="cbtuto")],
+            [InlineKeyboardButton("Make your own bot", callback_data="cbtuto")],
             [InlineKeyboardButton("🔙  Back Home", callback_data="cbhome")]]
         ),
     )
@@ -585,7 +585,7 @@ mostly, there wiil be the main error about to music assistant. If you are facing
         reply_markup=InlineKeyboardMarkup(
             [
             [
-                    InlineKeyboardButton("Assistant 🙋🏻‍♂️", url=f"https://t.me/{ASSUSERNAME}")
+                    InlineKeyboardButton("Assistant 🙂", url=f"https://t.me/{ASSUSERNAME}")
                 ],
               [InlineKeyboardButton("🔙  Back Home", callback_data="cbguide")]]
         ),
@@ -599,14 +599,14 @@ async def cbtuto(_, query: CallbackQuery):
 
 Good news! Now you can allow to make your own music bot like to this one. You will be get repo link below just click on it and follow steps!
 
-If you didn't know how to make your own bot then contact us at @comrade_robotz and get help from us.
+If you didn't know how to make your own bot then contact us at @KaoriXSupport and get help from us.
 
-**🔗 Repo Link : https://github.com/Love-u-bobby/MEOW-MUSIC**
+**🔗 Support Link : https://t.me/KaoriXSupport**
 
 **Thanks !""",
        reply_markup=InlineKeyboardMarkup(
             [[
-                    InlineKeyboardButton("Get Repo 📦", url=f"https://github.com/Love-u-bobby/MEOW-MUSIC")
+                    InlineKeyboardButton("Support ", url=f"https://t.me/KaoriXSupport")
                 ],
               [InlineKeyboardButton("🔙  Back Home", callback_data="cbabout")]]
         ),
@@ -615,7 +615,7 @@ If you didn't know how to make your own bot then contact us at @comrade_robotz a
 @Client.on_callback_query(filters.regex("cbhome"))
 async def cbhome(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""**Welcome [{query.message.chat.first_name}](tg://user?id={query.message.chat.id})** 👋
+        f"""**Welcome [{query.message.chat.first_name}](tg://user?id={query.message.chat.id})** 🙂
 
 This is the **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) bot,** a bot for playing high quality and unbreakable music in your groups voice chat.
 
