@@ -432,7 +432,7 @@ async def cleandb(_, CallbackQuery):
 @Client.on_callback_query(filters.regex("cmds"))
 async def cbcmnds(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""**𝗞𝗼𝘂𝘀𝗲𝗶 𝗔𝗿𝗶𝗺𝗮 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 🙂**
+        f"""**𝗥𝗶𝗻 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 🙂**
 
 • /play (song name) 
 - For playing music
@@ -518,7 +518,7 @@ This bot helps you to play music, to search music from youtube and to download m
             [
               [
                     InlineKeyboardButton("Support 🚶", url=f"https://t.me/{SUPPORT}"),
-                    InlineKeyboardButton("Updates 🤖", url=f"https://t.me/KaoriXUpdate")
+                    InlineKeyboardButton("Updates 🤖", url=f"https://t.me/AstorSupport")
                 ],
             [InlineKeyboardButton("Make your own bot", callback_data="cbtuto")],
             [InlineKeyboardButton("🔙  Back Home", callback_data="cbhome")]]
@@ -599,14 +599,14 @@ async def cbtuto(_, query: CallbackQuery):
 
 Good news! Now you can allow to make your own music bot like to this one. You will be get repo link below just click on it and follow steps!
 
-If you didn't know how to make your own bot then contact us at @KaoriXSupport and get help from us.
+If you didn't know how to make your own bot then contact us at @AstorSupport and get help from us.
 
 **🔗 Support Link : https://t.me/KaoriXSupport**
 
 **Thanks !""",
        reply_markup=InlineKeyboardMarkup(
             [[
-                    InlineKeyboardButton("Support ", url=f"https://t.me/KaoriXSupport")
+                    InlineKeyboardButton("Support ", url=f"https://t.me/AstorSupport")
                 ],
               [InlineKeyboardButton("🔙  Back Home", callback_data="cbabout")]]
         ),
